@@ -1,0 +1,292 @@
+/*General content*/
+
+p {
+    margin: 5px;
+    font-size: 15px;
+}
+
+div.container {
+    width: 100%;
+    border: none;
+    background:url(blue.jpg);
+   
+    
+}
+
+div.container > div.login_box {
+    margin-left: 30%;
+    display: block;
+}
+
+div.container > div.login_box > form {
+    margin-left: 10%;
+    display: block;
+}
+
+div.container1 {
+   
+    border: 1px solid gray;
+    width: 320px;
+    top: 60%;
+    left: 80%;
+    position: relative;
+    transform: translate(-190%,60%);
+    box-sizing: border-box;
+    padding: 0px 0px;
+    background: rgb(216, 203, 203);
+    
+}
+
+div.container1 > div.login_box {
+    margin-right: 5%;
+    display: block;
+}
+
+div.container1 > div.login_box > form {
+    
+    margin-left: 5%;
+    display: block;
+}
+
+
+.login_box input{
+    width:100%;
+    margin-bottom: 20px;
+}
+.login_box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 30px; 
+    background:#9d9e96;
+    color: black;
+    font-size: 14px;
+    border-radius: 20px;
+}
+.login_box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+    font-size: 20px;
+    box-shadow: 0 0 5px #000;
+}
+.login_box a
+{
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgb(10, 1, 1);
+    
+}
+.login_box a:hover
+{
+    color: #9D9E96;
+    font-size: 20px;
+    
+    
+}
+
+
+body {
+    position: relative;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-shadow: none !important;
+    color: #444;
+    padding-top: 0px;
+}
+
+header {
+    color: white;
+    background-color: midnightblue;
+}
+footer {
+    color: white;
+    background-color: midnightblue;
+}
+footer a{
+    color: white;
+}
+
+article > .flexbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 3px solid midnightblue;
+    padding: 1em;
+    overflow: hidden;
+    min-height: 500px;
+    
+}
+
+article h1, h2, h3, a, p {
+    clear: right;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+article .order {
+    width: 15px;
+}
+
+article p.answer, a.next {
+    display: none;
+}
+
+article textarea, iframe {
+    margin: 5px;
+}
+
+/*Header*/
+
+header > .header-container-center {
+    padding: 1em;
+    text-align: center;
+}
+
+header > .header-container-center > h1 {
+    margin: 0px;
+}
+
+header > .header-container-right {
+    text-align: right;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+}
+
+header > .header-container-right > a.button {
+    color: white;
+    background-color: #804d9b;
+    border-radius: 20px;
+    text-decoration: none;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    
+    
+}
+header > .header-container-right > a.button:hover{
+    box-shadow: 0 0 10px #000;
+    background-color: #b49d9d;
+}
+
+
+footer > .footer-container-center {
+    padding: 0.1em;
+    text-align: center;
+}
+
+footer > .footer-container-center > h1 {
+    margin: 0px;
+}
+
+
+/*Navigation menu on the left*/
+
+nav {
+    float: left;
+    width: 250px;
+    margin: 5px;
+    padding: 1em;
+    
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+nav ul ul {
+    list-style-type: square;
+    padding-left: 0px;
+}
+
+nav ul ul.subnav {
+    display:none;
+    
+}
+nav ul ul.subnav a:hover{
+    font-size:22px;
+    color: midnightblue;
+    
+
+}
+
+nav ul a {
+    text-decoration: none;
+    color:black;
+}
+    
+nav ul li a {
+    font-size: 20px;
+}
+
+/*Course item*/
+
+div.course_container {
+    outline: none;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 327px;
+    background-color: #d8c917;
+    color: midnightblue;
+    border-radius: 20px;
+}
+div.course_container:hover{
+   
+    background-color: #17d869;
+    
+}
+
+div.course_container > a  {
+    color: midnightblue;
+    font-weight: lighter !important;
+    font-size: 1.6em;
+    line-height: 5px;
+    margin-left: 10px;
+    margin-right: 70px;
+    background-color: #f7123e;
+    text-decoration: none;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 10px
+}
+div.course_container > p  {
+    color: midnightblue;
+}
+div.course_container > a:hover{
+    color: white;
+    background-color: #d67521;
+    box-shadow:0 0 5px #000; 
+    padding-top: 5px;
+    padding-bottom: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+    
+   
+
+/*Module item*/
+
+div.module {
+    outline: #9D9E96 solid thin;
+    margin-bottom: 20px;
+}
+
+div.module > h3 {
+    margin: 5px;
+}
+
+/*Other*/
